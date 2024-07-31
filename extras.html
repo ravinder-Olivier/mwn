@@ -1,0 +1,123 @@
+<tr class="animatableY">
+    <td>20/09/2019</td>
+    <td><span class="white"><a href="">Carnegie Hall</a></span><br />Manhattan</td>
+    <td>21h</td>
+  </tr>
+  <tr class="animatableY">
+    <td>26/07/2019</td>
+    <td><span class="white"><a href="">Fox Theater</a></span><br />Détroit</td>
+    <td>21h</td>
+  </tr>
+  <tr class="animatableY">
+    <td>20/07/2019</td>
+    <td><span class="white"><a href="">Apollo Theater</a></span><br />Manhattan</td>
+    <td>21h</td>
+  </tr>
+  <tr class="animatableY">
+    <td>10/05/2019</td>
+    <td><span class="white"><a href="">924 Gilman Street</a></span><br />Berkeley</td>
+    <td>21h</td>
+  </tr>
+
+  
+  <section class="blocNewsletter">
+    <h2 class="miniTitle animatableY">Keep update</h2>
+    <p class="miniPara animatableY"><br />Don't miss the next shows</p>
+    <form class="newsletterForm  animatableY">
+      <input aria-label="Entrez votre email" type="email" name="emailNews" id="emailNews" value="" placeholder="Email" required>
+      <input type="submit" name="valider" value="Subscribe">
+      <div id="hideNews">
+        <div>
+          <label class="miniPara" for="checkRobotNews">Are you human ?</label>
+        </div>
+        <div>
+          <input type="number" id="checkRobotNews" name="checkRobotNews" value="" placeholder="Result of 4 + 3 ?">
+        </div>
+      </div>
+      <p class="hidePara" aria-hidden="true" id="helpMailNews"></p>
+    </form>
+    <p aria-hidden="true" id="retourNewsFormulaire"></p>
+  </section>
+
+
+  
+  <a id="contact"></a>
+  <section class="contact">
+    <h2 class="animatableX">Contact</h2>
+    <div class="separator animatableOpacity"></div>
+
+    <p class="hardLight">
+      &nbsp;&nbsp;MacWilliams Worst Nightmares &nbsp;&nbsp;
+      <br />
+      Greater Portland Metro Area
+    </p>
+    <p id="insertMail" class="hardLight"></p>
+
+    <form class="contactForm">
+
+        <input aria-label="Saisissez votre nom" type="text" id="nom" name="nom" value="" required placeholder="Name">
+        <p class="hidePara" aria-hidden="true" id="helpNom"></p>
+  
+        <input aria-label="Saisissez votre numéro de téléphone" type="text" id="telephone" name="telephone" value="" placeholder="Phone">
+        <p class="hidePara" aria-hidden="true" id="helpTel"></p>
+  
+        <input aria-label="Saissisez votre adresse email" type="email" id="mail" name="mail" value="" required placeholder="Email">
+        <p class="hidePara" aria-hidden="true" id="helpMail"></p>
+  
+        <textarea aria-label="Entrez votre message" id="message" name="message" rows="8" cols="80" placeholder="Message"></textarea>
+  
+        <p class="labelP">Subscribe newsletter ?</p>
+        <div class="label">
+          <div class="inscriptionCheck">
+            <input type="radio" id="oui" name="newsletter" value="oui" checked>
+            <label for="oui">Yes</label>
+          </div>
+          <div class="inscriptionCheck">
+            <input type="radio" id="non" name="newsletter" value="non">
+            <label for="non">No</label>
+          </div>
+        </div>
+  
+        <input type="number" id="checkRobot" aria-label="Contrôle anti robot : Saisissez le résultat de 3 + 4" name="checkRobot" value="" placeholder="Result of 3 + 4">
+        <p class="hidePara" aria-hidden="true" id="helpRobot"></p>
+        <input type="submit" name="valider" value="send">
+      </form>
+    <p class="hidePara" aria-hidden="true" id="retourFormulaire"></p>
+  </section>
+
+  <img id="upArrow" src="./img/upArrow.svg" alt="Retour haut du site">
+
+
+  <a id="date"></a>
+  <section class="date">
+    <h2 class="animatableX">Shows</h2>
+    <div class="separator animatableOpacity"></div>
+
+      <!-- Table date -->
+      <table>
+        <tr class="animatableY">
+          <td></td>
+          <td><span class="white"><a href="">No Shows Scheduled</a></span><br /> </td>
+          <td></td>
+        </tr>
+        
+      </table>
+
+    </section>
+
+
+  <a id="music"></a>
+  <section class="music">
+    <h2 class="animatableX">Discover</h2>
+    <div class="separator animatableOpacity"></div>
+
+    <div class="ss-music">
+      <p class="hardLight animatableY">&nbsp;Live at ISB&nbsp;</p>
+      <video class="animatableY" id="bandVideo" controls poster="./img/bcc-free-template-rock-hard.png" preload="none">
+        <source src="videos/Rock-Band-Concert.mp4" type="video/mp4">
+        <source src="videos/Rock-Band-Concert.h264" type="video/h264">
+        <source src="videos/Rock-Band-Concert.webm" type="video/webm">
+        Your browser does not support this video file format
+      </video>
+    </div>
+  </section>
